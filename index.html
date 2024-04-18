@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js"></script>
+</head>
+<body>
+    <h1>Code Buddy</h1>
+    <div id="chatBox" style="margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: scroll;">
+        <!-- Messages will be displayed here -->
+    </div>
+    <form id="chatForm">
+        <input type="text" id="userInput" placeholder="Say something..." autofocus />
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="chat.js"></script>
+</body>
+</html>
